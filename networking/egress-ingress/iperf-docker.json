@@ -1,0 +1,17 @@
+{
+  "kind": "Pod",
+  "apiVersion":"v1",
+  "metadata": {
+        "name": "iperf-pod",
+        "labels": {
+                "name": "iperf-pod"
+        }
+  },
+  "spec": {
+      "containers": [{
+        "name": "iperf-pod",
+        "image": "bmeng/iperf-docker"
+      }]
+  }
+}
+
